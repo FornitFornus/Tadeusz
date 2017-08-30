@@ -1,0 +1,35 @@
+body {
+    color: #34434b;
+	background-color: #f4fbfc;
+	padding: 5rem 1.25rem; /* 80 20 */
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+.center {
+    margin-left: auto;
+    text-align: center;
+}
+
+.space {
+    height: 20px;
+}
+
+#lists_color {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#lists_color li {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Post o niczym potrzebnym do czegoś.",
+        "author": "Jan Waluś",
+        "data": "20-03-2017",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, suscipit ab, reiciendis blanditiis laboriosam, eaque molestiae veritatis, autem soluta nostrum aperiam eveniet ipsa! Suscipit similique, amet voluptatem, tempora, porro corrupti cum magni in necessitatibus asperiores vitae doloribus blanditiis ipsam minima quis voluptas aut earum ratione adipisci beatae consequuntur. Eaque vero excepturi eveniet necessitatibus, ex unde consequatur maiores, non sint velit iure nihil voluptatem quisquam alias, vitae nostrum atque. Cumque alias quia, quisquam molestias nesciunt nam unde officia illo, excepturi reprehenderit aspernatur eaque est voluptatibus dolorem cupiditate, esse numquam! Labore aliquam consequuntur nihil exercitationem beatae suscipit sapiente dolorem, ab eveniet temporibus.",
+        "vote": {
+            "like": 0,
+            "unlike": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "Post o czymś do niczego.",
+        "author": "Janina Pikon",
+        "data": "20-03-2017",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, suscipit ab, reiciendis blanditiis laboriosam, eaque molestiae veritatis, autem soluta nostrum aperiam eveniet ipsa! Suscipit similique, amet voluptatem, tempora, porro corrupti cum magni in necessitatibus asperiores vitae doloribus blanditiis ipsam minima quis voluptas aut earum ratione adipisci beatae consequuntur. Eaque vero excepturi eveniet necessitatibus, ex unde consequatur maiores, non sint velit iure nihil voluptatem quisquam alias, vitae nostrum atque. Cumque alias quia, quisquam molestias nesciunt nam unde officia illo, excepturi reprehenderit aspernatur eaque est voluptatibus dolorem cupiditate, esse numquam! Labore aliquam consequuntur nihil exercitationem beatae suscipit sapiente dolorem, ab eveniet temporibus.",
+        "vote": {
+            "like": 0,
+            "unlike": 0
+        }
+    }, 
+    {
+        "id": 3,
+        "name": "Post o poczciwości parzystości.",
+        "author": "Janusz Osterwa",
+        "data": "20-03-2017",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, suscipit ab, reiciendis blanditiis laboriosam, eaque molestiae veritatis, autem soluta nostrum aperiam eveniet ipsa! Suscipit similique, amet voluptatem, tempora, porro corrupti cum magni in necessitatibus asperiores vitae doloribus blanditiis ipsam minima quis voluptas aut earum ratione adipisci beatae consequuntur. Eaque vero excepturi eveniet necessitatibus, ex unde consequatur maiores, non sint velit iure nihil voluptatem quisquam alias, vitae nostrum atque. Cumque alias quia, quisquam molestias nesciunt nam unde officia illo, excepturi reprehenderit aspernatur eaque est voluptatibus dolorem cupiditate, esse numquam! Labore aliquam consequuntur nihil exercitationem beatae suscipit sapiente dolorem, ab eveniet temporibus.",
+        "vote": {
+            "like": 0,
+            "unlike": 0
+        }
+    }
+]

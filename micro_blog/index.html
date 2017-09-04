@@ -64,7 +64,7 @@
             </div>    
           <div class="col-md-2 col-sm-offset-1 blog-sidebar">
               <div class="sidebar-module sidebar-module-inset center">
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> Add Post </button>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalForm"> Add Post </button>
               </div>
               <div class="sidebar-module center">
                 <h4>Archives</h4>
@@ -94,43 +94,43 @@
     <!-- End Part of footer -->
     
     <!-- Modal -->
- <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
     
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:15px 30px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h3>Add Posts </h3>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
-           <div class="form-group">
-              <label for="name"><span class="glyphicon glyphicon-bookmark"></span> Title</label>
-              <input type="text" class="form-control" id="name" placeholder="Input title">
-            </div>
-            <div class="form-group">
-              <label for="author"><span class="glyphicon glyphicon-user"></span> Author</label>
-              <input type="text" class="form-control" id="author" placeholder="Input name">
-            </div>
-            <div class="form-group">
-              <label for="data"><span class="glyphicon glyphicon-calendar"></span> Date</label>
-              <input type="text" class="form-control" id="data" placeholder="Input dd-mm-year">
-            </div>
-            <div class="form-group">
-              <label for="content"><span class="glyphicon glyphicon-align-justify"></span> Content</label>
-              <textarea class="form-control" id="content" placeholder="Enter content"></textarea>
-            </div>
-              <button type="submit" id="addPost" class="btn btn-success btn-block"><span class="glyphicon glyphicon-ok"></span> Add </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+     <div class="modal fade" id="myModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+         <form role="form" id="addPostForm" action=" ">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Add Post</h4>
+              </div>
+              <div class="modal-body">
+            
+               <div class="form-group">
+                  <label for="name"><span class="glyphicon glyphicon-bookmark"></span> Title</label>
+                  <input type="text" class="form-control" id="name" placeholder="Input title">
+                </div>
+                <div class="form-group">
+                  <label for="author"><span class="glyphicon glyphicon-user"></span> Author</label>
+                  <input type="text" class="form-control" id="author" placeholder="Input name">
+                </div>
+                <div class="form-group">
+                  <label for="data"><span class="glyphicon glyphicon-calendar"></span> Date</label>
+                  <input type="text" class="form-control" id="data" pattern="^\d{2}\-\d{2}\-\d{4}\$" placeholder="Input dd-mm-year">
+                </div>
+                <div class="form-group">
+                  <label for="content"><span class="glyphicon glyphicon-align-justify"></span> Content</label>
+                  <textarea class="form-control" rows="10" id="content" placeholder="Enter content"></textarea>
+                </div>
+             </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" value="Add Post">Add Post</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          </div>
+        </form>
         </div>
       </div>
-      
     </div>
-  </div> 
+    
     <!-- End Modal -->
     
     <script src="js/micro_blog.js"></script>
@@ -138,5 +138,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+   <!--
+    <script>
+        $(document).ready(function() {
+            $("#myModal").click(function(){
+                $("#myModalForm").modal("");
+            });
+        });
+    </script> 
+   -->
+</body> 
 </html>
